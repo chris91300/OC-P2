@@ -10,15 +10,6 @@
     --blue :  #0065FC;
     --lightBlue : #DEEBFF;
 }
-/**
-
-grey var(--grey)
-
-blue var(--blue)
-
-light blue var(--lightBlue) 
-
-*/
 
 
 * {
@@ -70,10 +61,6 @@ h1, h2{
     font-size: 15px;
 }
 
-
-h2::before{
-    content: "<i class="fas fa-money-bill-wave center"></i>";
-}
 
 
 .container--row-col{
@@ -160,11 +147,10 @@ h1+p{
 }
 
 
-/***************************************/
-/***************************************/
-/*              SEARCH                 */
-/***************************************/
-/***************************************/
+
+/*================================================================*/
+/*                             SEARCH                             */
+/*================================================================*/
 
 #search{
     border-radius: 10px;
@@ -220,7 +206,6 @@ h1+p{
     height: 35px;
     position: absolute;
     right: 0;
-   /* width: 50px;*/
 }
 
 #search_button i{
@@ -239,22 +224,10 @@ h1+p{
 
 
 
+/*================================================================*/
+/*                                FILTRES                         */
+/*================================================================*/
 
-
-
-
-/***************************************/
-/***************************************/
-/*              FILTRE                 */
-/***************************************/
-/***************************************/
-
-
-
-/*
-    ATTENTION IL FAUT FAIRE UN EFFET AU SURVOL DES FILTRES
-    PEUT IMPORTE LEQUEL MAIS IL EN FAUT
-*/
 
 #filter{
     display: flex;
@@ -271,10 +244,6 @@ h1+p{
     display: flex;
     flex-wrap: wrap;
 }
-/*
-.container-wrap > div{
-    display: flex;
-}*/
 
 
 
@@ -298,16 +267,6 @@ h1+p{
     background-color: var(--lightBlue);
     margin-left: -2px;
 }
-/*
-.filter_item .item_container-i{
-    display: flex;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    color: var(--blue);
-    background-color: var(--lightBlue);
-    margin-left: -2px;
-}*/
 
 .filter_item .item_container-i i{
     object-fit: contain;
@@ -326,6 +285,7 @@ h1+p{
 
 /*=====================================================================*/
 /*  MODIFICATION DU STYLE DES FILTRES AU PASSAGE DE LA SOURIS ( HOVER )*/
+
 .filter_item:hover{
     border-color: #005DFC;
 }
@@ -338,7 +298,6 @@ h1+p{
 .filter_item:hover p{
     color: var(--blue);
 }
-
 
 /*======================================================================*/
 
@@ -452,7 +411,6 @@ h1+p{
     width: 100%;
     overflow: hidden;
     height: 80px;
-    /*height: 52%;*/
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -538,8 +496,6 @@ button.text_like{
 
 .most-popular{
     width: 100%;
-    /*min-width: 240px;*/
-    /*max-width: 300px;*/
     height: 100px;
     overflow: hidden;
     display: flex;
@@ -607,11 +563,10 @@ button.text_like{
 
 
 
-/***************************************/
-/***************************************/
-/*            ACTIVITY                 */
-/***************************************/
-/***************************************/
+
+/*================================================================*/
+/*                             ACTIVITY                           */
+/*================================================================*/
 
 
 #activities{
@@ -793,10 +748,6 @@ li{
         height: 90px;
     }
 
-/*
-    .card_hebergement{
-        width: 45%;
-    }*/
 
 
 
