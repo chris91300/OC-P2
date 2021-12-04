@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 
 
-
+/*      DÉFINITION DES COULEURS     */
 :root{
     --black : #333333;
     --grey : #F2F2F2;
@@ -31,7 +31,7 @@ body{
 
 main{
     width: 93%;
-    max-width: 1200px;
+    max-width: 1600px;
     margin: auto;
 }
 
@@ -103,6 +103,10 @@ header img{
     transform: scale(0.5);
 }
 
+.logo-desktop{
+    margin-left: 15px;
+}
+
 .logo-phone{
     display: none;
 }
@@ -119,6 +123,7 @@ nav a{
     padding: 30px;
     text-decoration: none;
     text-align: center;
+    width: 130px;
 }
 
 nav a:hover{
@@ -597,7 +602,7 @@ button.text-like{
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 0 2px 4px var(--grey);
+    box-shadow: 0 2px 7px 0 var(--grey);
     transition: all 0.3s;
 }
 
